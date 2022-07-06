@@ -17,9 +17,9 @@ resource "digitalocean_kubernetes_cluster" "workshop-cluster" {
   name   = "workshop-cluster"
   # Find and change the value to an availble datacenter region close to you
   # See DO datacenter regions with the command doctl compute region list
-  region = "sfo3"
+  region = "lon1"
   auto_upgrade = true
-  # Grab the latest DO Kubernetes version slug 
+  # Grab the latest DO Kubernetes version slug
   # See the available versions with the command doctl kubernetes options versions
   version = "1.22.11-do.0"
   ha = true

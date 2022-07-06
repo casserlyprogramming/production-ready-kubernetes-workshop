@@ -2,7 +2,7 @@
 ## Starter Kit configuration for Argo CD
 ##
 
-# Enable HA for Redis server
+# Enable HighAvailability for Redis server
 redis-ha:
   enabled: true
 

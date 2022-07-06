@@ -25,9 +25,9 @@ spec:
         # This is a good opportunity to encrypt your credentials using the Sealed Secrets project
         env:
         - name: DB_PASSWORD
-          value: "<REDIS_PASSWORD>"
+          value: ""
         - name: DB_HOST
-          value: "<REDIS_HOST_URL>"
+          value: "workshop-redis-cluster-do-user-9000011-0.b.db.ondigitalocean.com"
         - name: DB_PORT
           value: "25061"
         - name: DB_SSL
